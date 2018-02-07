@@ -1,3 +1,3 @@
 package strategyPattern
 
-class AnalogWatch(price: Int, diameter: Double, watchSensors: WatchSensors) : Watch(price, diameter, watchSensors)
+class AnalogWatch(modelName:String,price: Int, diameter: Double, watchSensors: WatchSensors) : Watch(modelName,price, diameter, watchSensors)
