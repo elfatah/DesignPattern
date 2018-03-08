@@ -1,14 +1,14 @@
 package factoryPattern.simpleFactory
 
 const val SUKHOI = "sukhoi"
-const val F22Raptop = "F22Raptop"
+const val F22Raptor = "F22Raptor"
 
 class SimpleAirCraftFactory {
 
     fun createAirCraft(type: String): AirCraft =
             when (type) {
                 SUKHOI -> Sukhoi()
-                F22Raptop -> F22()
+                F22Raptor -> F22()
                 else -> throw IllegalArgumentException("This type of aircraft is currently unavailable")
             }
 

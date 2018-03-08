@@ -5,5 +5,5 @@ fun main(args: Array<String>) {
     val store = AirCraftDealer(factory)
     store.orderAirCraft(SUKHOI)
     println()
-    store.orderAirCraft(F22Raptop)
+    store.orderAirCraft(F22Raptor)
 }
