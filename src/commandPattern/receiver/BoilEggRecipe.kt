@@ -1,4 +1,4 @@
-package commandPattern
+package commandPattern.receiver
 
 class BoilEggRecipe {
     fun prepareEgg() {

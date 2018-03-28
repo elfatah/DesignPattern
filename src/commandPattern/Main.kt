@@ -1,5 +1,11 @@
 package commandPattern
 
+import commandPattern.command.*
+import commandPattern.invoker.CookingRobot
+import commandPattern.receiver.BakeChickenRecipe
+import commandPattern.receiver.BoilEggRecipe
+import commandPattern.receiver.FriedRiceRecipe
+
 fun main(args: Array<String>) {
     println("---- Make fried rice ----")
     val recipe = FriedRiceRecipe()
