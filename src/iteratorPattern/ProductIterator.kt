@@ -1,6 +1,7 @@
 package iteratorPattern
 
-
 interface ProductIterator {
-    fun createIterator(): Iterator<Product>
+    fun hasNext(): Boolean
+    fun next()
+    fun remove(product: Product)
 }

@@ -1,6 +1,6 @@
 package iteratorPattern
 
-class Keyboard : ProductIterator {
+class Keyboard : ProductAggregate {
 
     private val keyboards = arrayListOf<Product>()
 

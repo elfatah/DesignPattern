@@ -1,6 +1,6 @@
 package iteratorPattern
 
-class Laptop : ProductIterator {
+class Laptop : ProductAggregate {
 
     private val laptop = hashMapOf<String, Product>()
 
